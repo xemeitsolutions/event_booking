@@ -1,0 +1,21 @@
+[25-Jul-2013 02:57:29] PHP Parse error:  syntax error, unexpected $end in /home/niroshan/public_html/cc/eventbooking/application/models/ion_auth_model.php on line 182
+[25-Jul-2013 03:04:14] PHP Warning:  Unexpected character in input:  ''' (ASCII=39) state=1 in /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php on line 90
+[25-Jul-2013 03:04:14] PHP Parse error:  syntax error, unexpected $end, expecting ')' in /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php on line 90
+[26-Jul-2013 13:22:09] PHP Fatal error:  Call to undefined function  img() in /home/niroshan/public_html/cc/eventbooking/application/views/auth/login.php on line 7
+[26-Jul-2013 13:23:01] PHP Fatal error:  Call to undefined function  img() in /home/niroshan/public_html/cc/eventbooking/application/views/auth/login.php on line 7
+[26-Jul-2013 13:23:06] PHP Fatal error:  Call to undefined function  img() in /home/niroshan/public_html/cc/eventbooking/application/views/auth/login.php on line 7
+[26-Jul-2013 13:28:04] PHP Fatal error:  Call to undefined function  img() in /home/niroshan/public_html/cc/eventbooking/application/views/auth/login.php on line 7
+[26-Jul-2013 04:47:09] PHP Fatal error:  Cannot access empty property in /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php on line 215
+[26-Jul-2013 16:17:26] PHP Fatal error:  Call to undefined function  img() in /home/niroshan/public_html/cc/eventbooking/application/views/auth/forgot_password.php on line 6
+[27-Jul-2013 01:39:31] PHP Fatal error:  Uncaught exception 'Exception' with message 'Undefined method Ion_auth::changelogout() called' in /home/niroshan/public_html/cc/eventbooking/application/libraries/Ion_auth.php:109
+Stack trace:
+#0 /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php(122): Ion_auth->__call('changelogout', Array)
+#1 /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php(122): Ion_auth->changelogout()
+#2 /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php(315): Auth->changelogout()
+#3 /home/niroshan/public_html/cc/eventbooking/system/core/CodeIgniter.php(359): Auth->reset_password('472a75fddc8ccad...')
+#4 /home/niroshan/public_html/cc/eventbooking/index.php(202): require_once('/home/niroshan/...')
+#5 {main}
+  thrown in /home/niroshan/public_html/cc/eventbooking/application/libraries/Ion_auth.php on line 109
+[27-Jul-2013 01:40:48] PHP Parse error:  syntax error, unexpected $end, expecting '(' in /home/niroshan/public_html/cc/eventbooking/application/controllers/auth.php on line 90
+[29-Jul-2013 03:21:12] PHP Fatal error:  Call to undefined method Event::_render_page() in /home/niroshan/public_html/cc/eventbooking/application/controllers/event.php on line 120
+[29-Jul-2013 03:21:48] PHP Fatal error:  Call to undefined method Event::_render_page() in /home/niroshan/public_html/cc/eventbooking/application/controllers/event.php on line 120
